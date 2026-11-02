@@ -1,0 +1,29 @@
+{
+  "seat_tower_enabled": true,
+  "level_unlock": 10,
+  "seat_tower_expire_hours": 24,
+  "seat_tower_total_players": 100,
+  "tiers": [
+    {
+      "tier": 1,
+      "required_levels": 7,
+      "reward_total": 2000,
+      "final_survivors_min": 5,
+      "final_survivors_max": 15
+    },
+    {
+      "tier": 2,
+      "required_levels": 10,
+      "reward_total": 3000,
+      "final_survivors_min": 5,
+      "final_survivors_max": 15
+    },
+    {
+      "tier": 3,
+      "required_levels": 14,
+      "reward_total": 4000,
+      "final_survivors_min": 5,
+      "final_survivors_max": 15
+    }
+  ]
+}

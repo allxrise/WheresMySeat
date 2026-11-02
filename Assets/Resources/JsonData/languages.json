@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "name": "English",
+        "symbol": "en"
+    },
+    {
+        "id": 2,
+        "name": "中文（繁體）",
+        "symbol": "zh-TW"
+    },
+    {
+        "id": 3,
+        "name": "العربية",
+        "symbol": "ar"
+    },
+    {
+        "id": 4,
+        "name": "Français",
+        "symbol": "fr"
+    },
+    {
+        "id": 5,
+        "name": "Deutsch",
+        "symbol": "de"
+    },
+    {
+        "id": 6,
+        "name": "हिन्दी",
+        "symbol": "hi"
+    },
+    {
+        "id": 7,
+        "name": "Italiano",
+        "symbol": "it"
+    },
+    {
+        "id": 8,
+        "name": "Português (Brasil)",
+        "symbol": "pt-BR"
+    },
+    {
+        "id": 9,
+        "name": "Português",
+        "symbol": "pt"
+    },
+    {
+        "id": 10,
+        "name": "Español",
+        "symbol": "es"
+    },
+    {
+        "id": 11,
+        "name": "Tiếng Việt",
+        "symbol": "vi"
+    },
+    {
+        "id": 12,
+        "name": "Bahasa Indonesia",
+        "symbol": "id"
+    },
+    {
+        "id": 13,
+        "name": "日本語",
+        "symbol": "ja"
+    },
+    {
+        "id": 14,
+        "name": "한국어",
+        "symbol": "ko"
+    },
+    {
+        "id": 15,
+        "name": "Русский",
+        "symbol": "ru"
+    },
+    {
+        "id": 16,
+        "name": "Filipino",
+        "symbol": "fil"
+    },
+    {
+        "id": 17,
+        "name": "ไทย",
+        "symbol": "th"
+    }
+]

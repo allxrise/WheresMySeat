@@ -1,0 +1,12 @@
+{
+  "active_banner":true,
+  "banner_first_level": 2,
+  "inter_first_level": 9,
+  "show_rating_level": 14,
+  "unlock_booster_hint_level": 5,
+  "unlock_booster_chair_level": 11,
+  "unlock_booster_moremove_level": 12,
+  "unlock_seat_race_level": 12,
+  "unlock_treasure_climb_level": 16,
+  "show_profile_level": 9
+}

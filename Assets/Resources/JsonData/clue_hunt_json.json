@@ -1,0 +1,168 @@
+{
+  "clue_hunt_config": {
+    "event": {
+      "eventId": "clue_hunt_season_01",
+      "startTimeUtc": "2026-01-10T00:00:00Z",
+      "endTimeUtc": "2026-01-24T00:00:00Z"
+    },
+    "tagCatalog": [
+      "animal",
+      "human",
+      "alien",
+      "fantasy",
+      "has_horns",
+      "big_ears",
+      "hat",
+      "earrings",
+      "tattoo",
+      "pink_hair",
+      "blue_hair",
+      "purple_hair",
+      "blonde_hair"
+    ],
+    "localization": {
+      "vi": {
+        "tag.animal": { "hint": "Động vật" },
+        "tag.human": { "hint": "Con người" },
+        "tag.alien": { "hint": "Ngoài hành tinh" },
+        "tag.fantasy": { "hint": "Tưởng tượng" },
+        "tag.has_horns": { "hint": "Có sừng" },
+        "tag.big_ears": { "hint": "Tai to" },
+        "tag.hat": { "hint": "Đội mũ" },
+        "tag.earrings": { "hint": "Bông tai" },
+        "tag.tattoo": { "hint": "Hình xăm" },
+        "tag.pink_hair": { "hint": "Tóc hồng" },
+        "tag.blue_hair": { "hint": "Tóc xanh" },
+        "tag.purple_hair": { "hint": "Tóc tím" },
+        "tag.blonde_hair": { "hint": "Tóc vàng" }
+      },
+      "en": {
+        "tag.animal": { "hint": "Animal" },
+        "tag.human": { "hint": "Human" },
+        "tag.alien": { "hint": "Alien" },
+        "tag.fantasy": { "hint": "Fantasy" },
+        "tag.has_horns": { "hint": "Horns" },
+        "tag.big_ears": { "hint": "Big ears" },
+        "tag.hat": { "hint": "Hat" },
+        "tag.earrings": { "hint": "Earrings" },
+        "tag.tattoo": { "hint": "Tattoo" },
+        "tag.pink_hair": { "hint": "Pink hair" },
+        "tag.blue_hair": { "hint": "Blue hair" },
+        "tag.purple_hair": { "hint": "Purple hair" },
+        "tag.blonde_hair": { "hint": "Blonde hair" }
+      }
+    },
+    "levels": [
+    {
+      "levelId": 1,
+      "reward": { "type": "CURRENCY","id": "Coin", "amount": 10 },
+      "suspects": [
+        { "id": "cow", "portrait": "cow.png", "tags": ["animal", "has_horns"] },
+
+        { "id": "elf", "portrait": "elf.png", "tags": ["has_horns"] },
+        { "id": "dragon", "portrait": "dragon.png", "tags": ["animal", "has_horns", "hat"] }
+      ],
+      "clues": [
+        { "id": "clue_animal", "tag": "animal", "cost": 1 },
+        { "id": "clue_hat", "tag": "hat", "cost": 1 }
+      ],
+      "answerId": "cow"
+    },
+
+    {
+      "levelId": 2,
+      "reward": { "type": "CURRENCY","id": "Coin", "amount": 20 },
+      "suspects": [
+        { "id": "viking", "portrait": "viking.png", "tags": ["human", "has_horns"] },
+
+        { "id": "unicorn", "portrait": "unicorn.png", "tags": ["has_horns"] },
+        { "id": "elf", "portrait": "elf.png", "tags": ["human", "has_horns", "hat"] },
+        { "id": "elf_tattoo", "portrait": "elf_tattoo.png", "tags": ["human", "has_horns", "tattoo"] }
+      ],
+      "clues": [
+        { "id": "clue_human", "tag": "human", "cost": 1 },
+        { "id": "clue_hat", "tag": "hat", "cost": 1 },
+        { "id": "clue_tattoo", "tag": "tattoo", "cost": 1 }
+      ],
+      "answerId": "viking"
+    },
+
+    {
+      "levelId": 3,
+      "reward": { "type": "BOOSTER","id": "Booster_Mega_ExtraMove", "amount": 1 },
+      "suspects": [
+        { "id": "alien_blue", "portrait": "alien_blue.png", "tags": ["alien", "blue_hair"] },
+
+        { "id": "human_female", "portrait": "human_female.png", "tags": ["blue_hair"] },
+        { "id": "alien_pink", "portrait": "alien_pink.png", "tags": ["alien"] },
+        { "id": "elf", "portrait": "elf.png", "tags": ["alien", "blue_hair", "human"] },
+        { "id": "viking", "portrait": "viking.png", "tags": ["alien", "blue_hair", "hat"] },
+        { "id": "monster_purple", "portrait": "monster_purple.png", "tags": ["alien", "blue_hair", "tattoo"] }
+      ],
+      "clues": [
+        { "id": "clue_alien", "tag": "alien", "cost": 1 },
+        { "id": "clue_blue_hair", "tag": "blue_hair", "cost": 1 },
+        { "id": "clue_human", "tag": "human", "cost": 1 },
+        { "id": "clue_hat", "tag": "hat", "cost": 1 },
+        { "id": "clue_tattoo", "tag": "tattoo", "cost": 1 }
+      ],
+      "answerId": "alien_blue"
+    },
+
+    {
+      "levelId": 4,
+      "reward": { "type": "BOOSTER", "id": "Booster_Mega_AutoSeat", "amount": 2 },
+      "suspects": [
+        { "id": "elf_tattoo", "portrait": "elf_tattoo.png", "tags": ["human", "tattoo"] },
+
+        { "id": "unicorn", "portrait": "unicorn.png", "tags": ["tattoo"] },
+        { "id": "human_female", "portrait": "human_female.png", "tags": ["human"] },
+        { "id": "alien_pink", "portrait": "alien_pink.png", "tags": ["human", "tattoo", "alien"] },
+        { "id": "elf", "portrait": "elf.png", "tags": ["human", "tattoo", "hat"] },
+        { "id": "viking", "portrait": "viking.png", "tags": ["human", "tattoo", "has_horns"] },
+        { "id": "alien_blue", "portrait": "alien_blue.png", "tags": ["human", "tattoo", "blue_hair"] }
+      ],
+      "clues": [
+        { "id": "clue_human", "tag": "human", "cost": 1 },
+        { "id": "clue_tattoo", "tag": "tattoo", "cost": 1 },
+
+        { "id": "clue_alien", "tag": "alien", "cost": 1 },
+        { "id": "clue_hat", "tag": "hat", "cost": 1 },
+        { "id": "clue_has_horns", "tag": "has_horns", "cost": 1 },
+        { "id": "clue_blue_hair", "tag": "blue_hair", "cost": 1 }
+      ],
+      "answerId": "elf_tattoo"
+    },
+
+    {
+      "levelId": 5,
+      "reward": { "type": "OTHER", "id": "SkipAd", "amount": 1 },
+      "suspects": [
+        { "id": "cow", "portrait": "cow.png", "tags": ["animal", "has_horns"] },
+
+        { "id": "viking", "portrait": "viking.png", "tags": ["has_horns"] },
+        { "id": "dragon", "portrait": "dragon.png", "tags": ["animal"] },
+
+        { "id": "elf", "portrait": "elf.png", "tags": ["animal", "has_horns", "human"] },
+        { "id": "alien_blue", "portrait": "alien_blue.png", "tags": ["animal", "has_horns", "alien"] },
+        { "id": "monster_purple", "portrait": "monster_purple.png", "tags": ["animal", "has_horns", "fantasy"] },
+        { "id": "unicorn", "portrait": "unicorn.png", "tags": ["animal", "has_horns", "hat"] },
+        { "id": "human_female", "portrait": "human_female.png", "tags": ["animal", "has_horns", "earrings"] },
+        { "id": "elf_tattoo", "portrait": "elf_tattoo.png", "tags": ["animal", "has_horns", "tattoo"] }
+      ],
+      "clues": [
+        { "id": "clue_animal", "tag": "animal", "cost": 1 },
+        { "id": "clue_has_horns", "tag": "has_horns", "cost": 1 },
+
+        { "id": "clue_human", "tag": "human", "cost": 1 },
+        { "id": "clue_alien", "tag": "alien", "cost": 1 },
+        { "id": "clue_fantasy", "tag": "fantasy", "cost": 1 },
+        { "id": "clue_hat", "tag": "hat", "cost": 1 },
+        { "id": "clue_earrings", "tag": "earrings", "cost": 1 },
+        { "id": "clue_tattoo", "tag": "tattoo", "cost": 1 }
+      ],
+      "answerId": "cow"
+    }
+  ]
+  }
+}

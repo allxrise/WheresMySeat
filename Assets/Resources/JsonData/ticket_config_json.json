@@ -1,0 +1,29 @@
+{
+  "ticket_missing": [
+    {
+      "missing_ticket": 1,
+      "price": 30,
+      "is_fill_full": true
+    },
+    {
+      "missing_ticket": 3,
+      "price": 75,
+      "is_fill_full": true
+    },
+    {
+      "missing_ticket": 5,
+      "price": 100,
+      "is_fill_full": true
+    },
+    {
+      "missing_ticket": 2,
+      "price": 30,
+      "is_fill_full": false
+    },
+    {
+      "missing_ticket": 4,
+      "price": 30,
+      "is_fill_full": false
+    }
+  ]
+}

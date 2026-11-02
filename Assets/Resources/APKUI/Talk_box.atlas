@@ -1,0 +1,12 @@
+Talk_box.png
+size:120,80
+filter:Linear,Linear
+pma:true
+Talking/box talk copy
+bounds:2,2,97,73
+Talking/dot1
+bounds:101,59,16,16
+Talking/dot2
+bounds:101,59,16,16
+Talking/dot3
+bounds:101,59,16,16

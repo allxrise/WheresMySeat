@@ -1,0 +1,59 @@
+{
+    "pack_id": "new_seater_pack",
+    "triggers": {
+        "show_at_level_end": [
+            3,
+            7,
+            14,
+            22
+        ],
+        "discount_at_level_end": 7,
+        "daily_remind": {
+            "enable": true,
+            "start_level": 0,
+            "stop_condition": "has_this_pack"
+        }
+    },
+    "rewards": [
+        {
+            "type": "booster",
+            "id": "Booster_Mega_ExtraMove",
+            "amount": 3
+        },
+        {
+            "type": "currency",
+            "id": "Coin",
+            "amount": 500
+        },
+        {
+            "type": "frame",
+            "id": "Frame_Fox",
+            "amount": 1
+        },
+        {
+            "type": "avatar",
+            "id": "Ava_Christmas",
+            "amount": 1
+        }
+    ],
+    "ad_benefits": {
+        "remove_interstitial": false,
+        "remove_banner": false
+    },
+    "pricing": {
+        "base": {
+            "sku": "where.my.seat.bundle.new.seater",
+            "display_price": 2.99
+        },
+        "discount": {
+            "sku": "where.my.seat.bundle.new.seater.promo",
+            "display_price": 1.99,
+            "tag_text": "33%"
+        }
+    },
+    "duration": {
+        "type": "level_based",
+        "end_level_cap": -1,
+        "ttl_seconds": 86400
+    }
+}

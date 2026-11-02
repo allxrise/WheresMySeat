@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "key": "Booster_SpecialItem",
+      "first_price": 300,
+      "normal_price": 400
+    },
+    {
+      "key": "Booster_HintFindPos",
+      "first_price": 250,
+      "normal_price": 350
+    },
+    {
+      "key": "Booster_Mega_AutoSeat",
+      "first_price": 200,
+      "normal_price": 350
+    },
+    {
+      "key": "Booster_Mega_ExtraMove",
+      "first_price": 350,
+      "normal_price": 500
+    },
+    {
+      "key": "out_of_move",
+      "first_price": 250,
+      "normal_price": 500
+    },
+    {
+      "key": "Revive",
+      "first_price": 300,
+      "normal_price": 400
+    }
+  ]
+}

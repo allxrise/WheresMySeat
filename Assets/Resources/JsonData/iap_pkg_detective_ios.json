@@ -1,0 +1,55 @@
+{
+    "pack_id": "detective_pack",
+    "triggers": {
+        "show_at_level_end": [9, 13, 20],
+        "discount_at_level_end": -1,
+        "daily_remind": {
+            "enable": true,
+            "start_level": 20,
+            "stop_condition": "has_this_pack"
+        }
+    },
+    "rewards": [
+        {
+            "type": "currency",
+            "id": "Coin",
+            "amount": 2000
+        },
+        {
+            "type": "booster",
+            "id": "Booster_Mega_AutoSeat",
+            "amount": 3
+        },
+        {
+            "type": "booster",
+            "id": "Booster_SpecialItem",
+            "amount": 3
+        },
+        {
+            "type": "avatar",
+            "id": "Ava_Christmas_2",
+            "amount": 1
+        },
+        {
+            "type": "other",
+            "id": "SkipAd",
+            "amount": 10
+        }
+    ],
+    "ad_benefits": {
+        "remove_interstitial": false,
+        "remove_banner": false
+    },
+    "pricing": {
+        "base": {
+            "sku": "where.my.seat.ios.bundle.detective",
+            "display_price": 14.49
+        },
+        "discount": null
+    },
+    "duration": {
+        "type": "level_based",
+        "end_level_cap": 49,
+        "ttl_seconds": 0
+    }
+}

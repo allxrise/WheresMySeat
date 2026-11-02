@@ -1,0 +1,299 @@
+{
+  "level_unlock": 30,
+  "season_id": "S1",
+  "alpha": 1,
+  "time_start": 1774430667,
+  "time_end": 1774663500,
+  "coin_price_first_box": 300,
+  "coin_price_second_box": 500,
+  "iap": [
+    {
+      "id": "blind-box2",
+      "pid": "where.my.seat.blind.box.2",
+      "price": 4.49
+    },
+    {
+      "id": "blind-box3",
+      "pid": "where.my.seat.blind.box.3",
+      "price": 6.69
+    }
+  ],
+  "blind_chest": [
+    {
+      "item_type": "Coin",
+      "unit": "coins",
+      "base_rate": 10,
+      "items": [
+        {
+          "id": "coin1",
+          "amount": 300
+        },
+        {
+          "id": "coin2",
+          "amount": 500
+        },
+        {
+          "id": "coin3",
+          "amount": 750
+        },
+        {
+          "id": "coin4",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "item_type": "Booster_Mega_AutoSeat",
+      "unit": "count",
+      "base_rate": 16,
+      "items": [
+        {
+          "id": "autoseat1",
+          "amount": 2
+        },
+        {
+          "id": "autoseat2",
+          "amount": 3
+        },
+        {
+          "id": "autoseat3",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item_type": "Booster_HintFindPos",
+      "unit": "count",
+      "base_rate": 14,
+      "items": [
+        {
+          "id": "hint1",
+          "amount": 2
+        },
+        {
+          "id": "hint2",
+          "amount": 3
+        },
+        {
+          "id": "hint3",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "item_type": "Booster_Mega_ExtraMove",
+      "unit": "count",
+      "base_rate": 16,
+      "items": [
+        {
+          "id": "extramove1",
+          "amount": 2
+        },
+        {
+          "id": "extramove2",
+          "amount": 3
+        },
+        {
+          "id": "extramove3",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item_type": "Booster_SpecialItem",
+      "unit": "count",
+      "base_rate": 8,
+      "items": [
+        {
+          "id": "specialitem1",
+          "amount": 2
+        },
+        {
+          "id": "specialitem2",
+          "amount": 3
+        },
+        {
+          "id": "specialitem3",
+          "amount": 4
+        },
+        {
+          "id": "specialitem4",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item_type": "InfiniteTicket",
+      "unit": "second",
+      "base_rate": 22,
+      "items": [
+        {
+          "id": "infiniteticket1",
+          "amount": 300
+        },
+        {
+          "id": "infiniteticket2",
+          "amount": 900
+        },
+        {
+          "id": "infiniteticket3",
+          "amount": 1800
+        },
+        {
+          "id": "infiniteticket4",
+          "amount": 3600
+        }
+      ]
+    },
+    {
+      "item_type": "SkipAd",
+      "unit": "count",
+      "base_rate": 6,
+      "items": [
+        {
+          "id": "skipad1",
+          "amount": 2
+        },
+        {
+          "id": "skipad2",
+          "amount": 3
+        },
+        {
+          "id": "skipad3",
+          "amount": 5
+        },
+        {
+          "id": "skipad4",
+          "amount": 10
+        },
+        {
+          "id": "skipad5",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item_type": "Shield",
+      "unit": "count",
+      "base_rate": 3.9,
+      "items": [
+        {
+          "id": "shield1",
+          "amount": 1
+        },
+        {
+          "id": "shield2",
+          "amount": 2
+        },
+        {
+          "id": "shield3",
+          "amount": 3
+        },
+        {
+          "id": "shield4",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item_type": "Revive",
+      "unit": "count",
+      "base_rate": 4,
+      "items": [
+        {
+          "id": "revive1",
+          "amount": 1
+        },
+        {
+          "id": "revive2",
+          "amount": 2
+        },
+        {
+          "id": "revive3",
+          "amount": 3
+        },
+        {
+          "id": "revive4",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item_type": "SeatPass",
+      "unit": "count",
+      "base_rate": 0.1,
+      "items": [
+        {
+          "id": "seatpass1",
+          "amount": 1
+        }
+      ]
+    }
+  ],
+  "premium_pool": [
+    {
+      "item_type": "Coin",
+      "amount": 500
+    },
+    {
+      "item_type": "Coin",
+      "amount": 750
+    },
+    {
+      "item_type": "Coin",
+      "amount": 1000
+    },
+    {
+      "item_type": "Booster_SpecialItem",
+      "amount": 3
+    },
+    {
+      "item_type": "Booster_SpecialItem",
+      "amount": 4
+    },
+    {
+      "item_type": "Booster_SpecialItem",
+      "amount": 5
+    },
+    {
+      "item_type": "InfiniteTicket",
+      "amount": 1800
+    },
+    {
+      "item_type": "InfiniteTicket",
+      "amount": 3600
+    },
+    {
+      "item_type": "SkipAd",
+      "amount": 5
+    },
+    {
+      "item_type": "SkipAd",
+      "amount": 10
+    },
+    {
+      "item_type": "SkipAd",
+      "amount": 20
+    },
+    {
+      "item_type": "Shield",
+      "amount": 3
+    },
+    {
+      "item_type": "Shield",
+      "amount": 5
+    },
+    {
+      "item_type": "Revive",
+      "amount": 3
+    },
+    {
+      "item_type": "Revive",
+      "amount": 5
+    },
+    {
+      "item_type": "SeatPass",
+      "amount": 1
+    }
+  ]
+}

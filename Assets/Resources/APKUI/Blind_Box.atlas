@@ -1,0 +1,74 @@
+Blind_Box.png
+size:1982,1817
+filter:Linear,Linear
+pma:true
+Glow/Layer 1
+bounds:412,9,356,267
+offsets:23,1,380,282
+Glow/Layer 2
+bounds:2,2,274,408
+offsets:11,1,286,424
+rotate:90
+Glow/Layer 3
+bounds:1696,128,224,442
+offsets:5,1,233,460
+Glow/Layer 5
+bounds:1696,572,284,408
+offsets:2,1,299,424
+Glow/Layer 6
+bounds:1598,982,381,289
+offsets:1,1,397,301
+Glow/glow_full
+bounds:896,1373,724,442
+offsets:23,1,762,460
+Star/skill1_1_0017
+bounds:1909,1717,98,55
+offsets:1,2,101,59
+rotate:90
+Star/wujiaoxing_a
+bounds:1050,221,110,105
+Star/wujiaoxing_b
+bounds:770,46,142,137
+offsets:3,3,147,143
+Star/wujiaoxing_c
+bounds:923,205,125,121
+TX/1_guang
+bounds:1922,500,57,70
+offsets:0,0,70,70
+TX/skill2_fasan_0008
+bounds:770,185,151,141
+offsets:3,3,157,148
+glow_effect_blind-box_lid
+bounds:672,328,596,528
+rotate:90
+glow_effect_blind-box_lid_2
+bounds:896,935,700,436
+glow_effect_blind-box_open
+bounds:2,278,668,646
+img_blind-box_lid
+bounds:1202,45,447,378
+offsets:1,1,449,380
+img_blind-box_lid_2
+bounds:1622,1273,542,285
+offsets:1,1,544,288
+rotate:90
+img_blind-box_open
+bounds:1202,425,508,492
+offsets:1,1,510,494
+rotate:90
+lightPoint_0
+bounds:1651,386,35,37
+offsets:4,0,43,41
+lightPoint_p3
+bounds:672,291,34,35
+offsets:3,2,40,40
+littleStars00
+bounds:1909,1649,66,65
+offsets:3,3,73,73
+rotate:90
+littleStars2
+bounds:1598,940,40,40
+offsets:1,1,43,42
+sfx-aura-large copy
+bounds:2,926,892,889
+offsets:13,13,918,918

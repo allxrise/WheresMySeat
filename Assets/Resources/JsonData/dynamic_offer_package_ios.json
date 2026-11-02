@@ -1,0 +1,59 @@
+{
+  "dynamic_offer_package": [
+    {
+      "id": "buy-booster1",
+      "pid": "where.my.seat.ios.more.booster",
+      "price_display": 0.99,
+      "rewards": [
+        {"type": "booster", "id": "Booster_SpecialItem", "amount": 3},
+        {"type": "other",   "id": "Revive",              "amount": 2}
+      ]
+    },
+    {
+      "id": "buy-booster2",
+      "pid": "where.my.seat.ios.more.booster.2",
+      "price_display": 1.29,
+      "rewards": [
+        {"type": "booster", "id": "Booster_SpecialItem", "amount": 3},
+        {"type": "other",   "id": "Revive",              "amount": 2}
+      ]
+    },
+    {
+      "id": "buy-booster3",
+      "pid": "where.my.seat.ios.more.booster.3",
+      "price_display": 1.69,
+      "rewards": [
+        {"type": "booster", "id": "Booster_SpecialItem", "amount": 3},
+        {"type": "other",   "id": "Revive",              "amount": 2}
+      ]
+    },
+    {
+      "id": "special-booster2",
+      "pid": "where.my.seat.ios.special.booster.2",
+      "price_display": 2.99,
+      "rewards": [
+        {"type": "other",   "id": "Revive",              "amount": 2},
+        {"type": "booster", "id": "Booster_SpecialItem", "amount": 3},
+        {"type": "booster", "id": "Shield",              "amount": 2}
+      ]
+    },
+    {
+      "id": "special-booster3",
+      "pid": "where.my.seat.ios.special.booster.3",
+      "price_display": 3.99,
+      "rewards": [
+        {"type": "other",   "id": "Revive",              "amount": 2},
+        {"type": "booster", "id": "Booster_SpecialItem", "amount": 3},
+        {"type": "booster", "id": "Shield",              "amount": 2}
+      ]
+    },
+    {
+      "id": "buy-skip1",
+      "pid": "where.my.seat.ios.skip.package.1",
+      "price_display": 1.49,
+      "rewards": [
+        {"type": "other",   "id": "SkipAd",              "amount": 10}
+      ]
+    }
+  ]
+}

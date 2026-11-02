@@ -1,0 +1,26 @@
+{
+  "seat_race": {
+    "seat_race_unlock_level": 12,
+    "seat_race_total_level": 10,
+    "seat_race_duration_minutes": 60,
+    "seat_race_play_option": 1,
+    "seat_race_reward_top1": [
+      {
+        "id": "Coin",
+        "count": 100
+      }
+    ],
+    "seat_race_reward_top2": [
+      {
+        "id": "Coin",
+        "count": 50
+      }
+    ],
+    "seat_race_reward_top3": [
+      {
+        "id": "Coin",
+        "count": 25
+      }
+    ]
+  }
+}

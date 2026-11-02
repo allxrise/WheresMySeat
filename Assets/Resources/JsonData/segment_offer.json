@@ -1,0 +1,97 @@
+{
+  "level_reset_all_limit": 100,
+  "segment_offer": [
+    {
+      "segment_id": "Spd_0",
+      "offer_iap_pkgs": [
+        {
+          "pack_type": "primary_pack",
+          "pack_reference": "buy-booster1",
+          "limit_day": 1,
+          "limit_total": 2
+        }
+      ],
+      "offer_ads": {
+        "limit_day": 5
+      }
+    },
+    {
+      "segment_id": "Spd_1",
+      "offer_iap_pkgs": [
+        {
+          "pack_type": "primary_pack",
+          "pack_reference": "buy-booster2",
+          "limit_day": 1,
+          "limit_total": 2
+        },
+        {
+          "pack_type": "secondary_pack",
+          "pack_reference": "buy-booster1",
+          "limit_day": 1,
+          "limit_total": 1
+        },
+        {
+          "pack_type": "special_pack",
+          "pack_reference": "special-booster2",
+          "limit_day": 1,
+          "limit_total": 1
+        }
+      ],
+      "offer_ads": {
+        "limit_day": 3
+      }
+    },
+    {
+      "segment_id": "Spd_2_3",
+      "offer_iap_pkgs": [
+        {
+          "pack_type": "primary_pack",
+          "pack_reference": "buy-booster3",
+          "limit_day": 1,
+          "limit_total": 2
+        },
+        {
+          "pack_type": "secondary_pack",
+          "pack_reference": "buy-booster2",
+          "limit_day": 1,
+          "limit_total": 1
+        },
+        {
+          "pack_type": "special_pack",
+          "pack_reference": "special-booster3",
+          "limit_day": 1,
+          "limit_total": 1
+        }
+      ],
+      "offer_ads": {
+        "limit_day": 3
+      }
+    },
+    {
+      "segment_id": "Spd_4",
+      "offer_iap_pkgs": [
+        {
+          "pack_type": "primary_pack",
+          "pack_reference": "buy-booster3",
+          "limit_day": 1,
+          "limit_total": 2
+        },
+        {
+          "pack_type": "secondary_pack",
+          "pack_reference": "buy-booster2",
+          "limit_day": 1,
+          "limit_total": 1
+        },
+        {
+          "pack_type": "special_pack",
+          "pack_reference": "special-booster3",
+          "limit_day": 1,
+          "limit_total": 1
+        }
+      ],
+      "offer_ads": {
+        "limit_day": 3
+      }
+    }
+  ]
+}

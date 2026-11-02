@@ -1,0 +1,5 @@
+{
+  "win_streak_threshold": 5,
+  "lose_streak_threshold": 3,
+  "session_freq_threshold": 1.5
+}

@@ -1,0 +1,24 @@
+{
+  "rewards": [
+    {
+      "id": "Coin",
+      "count": 10
+    },
+    {
+      "id": "InfiniteTicket",
+      "count": 900
+    },
+    {
+      "id": "Booster_Mega_ExtraMove",
+      "count": 2
+    },
+    {
+      "id": "Booster_Mega_AutoSeat",
+      "count": 2
+    },
+    {
+      "id": "Coin",
+      "count": 50
+    }
+  ]
+}

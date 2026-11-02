@@ -1,0 +1,10 @@
+{
+  "adaptive_difficulty":[
+    {
+        "level": 99999,
+        "lose_count": 3,
+        "level_difficulty": -1,
+        "value_game_mode": -1
+    }
+  ]
+}

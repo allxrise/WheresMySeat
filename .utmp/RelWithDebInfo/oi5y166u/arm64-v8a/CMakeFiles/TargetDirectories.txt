@@ -1,0 +1,8 @@
+/home/iso/Projects/wheresmyseatrea/WheresMySeat/.utmp/RelWithDebInfo/oi5y166u/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/iso/Projects/wheresmyseatrea/WheresMySeat/.utmp/RelWithDebInfo/oi5y166u/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/iso/Projects/wheresmyseatrea/WheresMySeat/.utmp/RelWithDebInfo/oi5y166u/arm64-v8a/GameActivity/CMakeFiles/game.dir
+/home/iso/Projects/wheresmyseatrea/WheresMySeat/.utmp/RelWithDebInfo/oi5y166u/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+/home/iso/Projects/wheresmyseatrea/WheresMySeat/.utmp/RelWithDebInfo/oi5y166u/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
+/home/iso/Projects/wheresmyseatrea/WheresMySeat/.utmp/RelWithDebInfo/oi5y166u/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+/home/iso/Projects/wheresmyseatrea/WheresMySeat/.utmp/RelWithDebInfo/oi5y166u/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+/home/iso/Projects/wheresmyseatrea/WheresMySeat/.utmp/RelWithDebInfo/oi5y166u/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir

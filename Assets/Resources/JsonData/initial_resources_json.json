@@ -1,0 +1,40 @@
+{
+  "resources": [
+    {
+      "id": "Booster_Undo",
+      "default_number": 2
+    },
+    {
+      "id": "Booster_SpecialItem",
+      "default_number": 2
+    },
+    {
+      "id": "Booster_HintFindPos",
+      "default_number": 2
+    },
+    {
+      "id": "Booster_Mega_AutoSeat",
+      "default_number": 2
+    },
+    {
+      "id": "Booster_Mega_ExtraMove",
+      "default_number": 2
+    },
+    {
+      "id": "Revive",
+      "default_number": 0
+    },
+    {
+      "id": "Shield",
+      "default_number": 0
+    },
+    {
+      "id": "Coin",
+      "default_number": 200
+    },
+    {
+      "id": "SkipAd",
+      "default_number": 3
+    }
+  ]
+}

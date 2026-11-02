@@ -1,0 +1,20 @@
+[
+    {
+        "minLevel": 1,
+        "maxLevel": 50,
+        "segments": [
+            2,
+            3,
+            5
+        ]
+    },
+    {
+        "minLevel": 51,
+        "maxLevel": 100,
+        "segments": [
+            1.5,
+            2,
+            3
+        ]
+    }
+]

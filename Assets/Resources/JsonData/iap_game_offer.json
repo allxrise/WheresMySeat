@@ -1,0 +1,86 @@
+{
+  "level_request_user_segment": 14,
+  "offer_ads": {
+    "segment_condition": [
+      {"id": "Spd_0",   "limit_day": 5, "limit_total": -1},
+      {"id": "Spd_1",   "limit_day": 3, "limit_total": -1},
+      {"id": "Spd_2_3", "limit_day": 3, "limit_total": -1},
+      {"id": "Spd_4",   "limit_day": 3, "limit_total": -1}
+    ]
+  },
+  "iap_offer_pkg": {
+    "reset_by_level": 100,
+    "buy_booster": {
+      "packages": [
+        {
+          "id": "buy-booster1",
+          "pid": "com.test.1",
+          "price_display": "$0.99",
+          "segment_condition": [
+            {"id": "Spd_0", "limit_day": 1, "limit_total": 2},
+            {"id": "Spd_1", "limit_day": 1, "limit_total": 1}
+          ],
+          "rewards": []
+        },
+        {
+          "id": "buy-booster2",
+          "pid": "com.test.2",
+          "price_display": "$1.29",
+          "segment_condition": [
+            {"id": "Spd_1",   "limit_day": 1, "limit_total": 2},
+            {"id": "Spd_2_3", "limit_day": 1, "limit_total": 1},
+            {"id": "Spd_4",   "limit_day": 1, "limit_total": 1}
+          ],
+          "rewards": []
+        },
+        {
+          "id": "buy-booster3",
+          "pid": "com.test.3",
+          "price_display": "$1.69",
+          "segment_condition": [
+            {"id": "Spd_2_3", "limit_day": 1, "limit_total": 2},
+            {"id": "Spd_4",   "limit_day": 1, "limit_total": 2}
+          ],
+          "rewards": []
+        }
+      ],
+      "reward_special": {
+        "type": "booster",
+        "id": "Booster_SpecialItem",
+        "amount": 3
+      },
+      "reward_revive": {"type": "other", "id": "Revive", "amount": 2}
+    },
+    "special_booster": {
+      "packages": [
+        {
+          "id": "special-booster2",
+          "pid": "com.test.special.2",
+          "price_display": "$2.99",
+          "segment_condition": [
+            {"id": "Spd_1", "limit_day": 1, "limit_total": 1}
+          ],
+          "rewards": [
+            {"type": "other",   "id": "Revive",              "amount": 2},
+            {"type": "booster", "id": "Booster_SpecialItem", "amount": 3},
+            {"type": "booster", "id": "Shield",              "amount": 2}
+          ]
+        },
+        {
+          "id": "special-booster3",
+          "pid": "com.test.special.3",
+          "price_display": "$3.99",
+          "segment_condition": [
+            {"id": "Spd_2_3", "limit_day": 1, "limit_total": 1},
+            {"id": "Spd_4",   "limit_day": 1, "limit_total": 1}
+          ],
+          "rewards": [
+            {"type": "other",   "id": "Revive",              "amount": 2},
+            {"type": "booster", "id": "Booster_SpecialItem", "amount": 3},
+            {"type": "booster", "id": "Shield",              "amount": 2}
+          ]
+        }
+      ]
+    }
+  }
+}

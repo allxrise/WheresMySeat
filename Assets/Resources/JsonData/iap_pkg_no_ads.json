@@ -1,0 +1,34 @@
+{
+  "no_ads_config": {
+    "default_pack_id": "noads_base",
+    "switch_behavior": "none",
+    "triggers": {
+      "show_at_level_end": [
+        8,
+        16
+      ]
+    },
+    "packs": [
+      {
+        "pack_id": "noads_base",
+        "sku": "where.my.seat.no.ads",
+        "display_price": 3.39,
+        "benefits": {
+          "remove_banner": true,
+          "remove_interstitial": true,
+          "bonus_skip_ads": 0
+        }
+      },
+      {
+        "pack_id": "noads_plus",
+        "sku": "where.my.seat.bundle.ads.killer.plus",
+        "display_price": 4.49,
+        "benefits": {
+          "remove_banner": true,
+          "remove_interstitial": true,
+          "bonus_skip_ads": 10
+        }
+      }
+    ]
+  }
+}
